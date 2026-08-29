@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Huda Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#021122] overflow-x-hidden">
+
+    <!---Header-->
+    <header class="bg-[#021122] flex w-full px-[20px] py-5 justify-between items-center rounded-lg shadow-lg shadow-[#118353] sticky top-0 z-50">
+
+        <!-- Logo -->
+        <a href="#home" class="font-semibold text-[20px] text-[#28b77c] no-underline">Huda</a>
+    
+        <!-- Navigation -->
+        <nav class="w-full md:w-auto border-t border-white/10 md:border-0">
+            <ul class="flex flex-row justify-center items-center gap-2 md:gap-5 m-0 p-2 md:p-0 overflow-x-auto whitespace-nowrap">
+                <li><a href="#About" class="text-xs md:text-lg text-white no-underline hover:text-[#34ca8c] transition">About</a></li>
+                <li><a href="#Skills" class="text-xs md:text-lg text-white no-underline hover:text-[#34ca8c] transition">Skills</a></li>
+                <li><a href="#Education" class="text-xs md:text-lg text-white no-underline hover:text-[#34ca8c] transition">Education</a></li>
+                <li><a href="#Hobbies" class="text-xs md:text-lg text-white no-underline hover:text-[#34ca8c] transition">Hobbies</a></li>
+                <li><a href="#Goals" class="text-xs md:text-lg text-white no-underline hover:text-[#34ca8c] transition">Goals</a></li>
+                <li><a href="#Contact" class="text-xs md:text-lg text-white no-underline hover:text-[#34ca8c] transition">Contact</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+
+    <!---Main-->
+    <main class="p-2">
+
+
+        <!--Home-->
+        <section id="home" class="flex flex-wrap justify-center items-center gap-10 mt-16 mb-20 px-4" >
+
+            <!-- Introduction -->
+            <div class="max-w-[600px] w-full text-center md:text-left">
+                <h2 class="text-[32px] sm:text-[40px] font-semibold mb-2.5 text-[#118353]">Hi, I'm Huda</h2>
+                 <p class="text-[16px] sm:text-[20px] font-mono leading-[1.6] text-white mb-8"> I'm a Full Stack Developer interested in web development and AI.
+                     I create beautiful and modern websites using HTML, CSS, JavaScript and Tailwind CSS.
+                </p>
+
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <button class="w-[200px] h-[40px] rounded-[20px] bg-[#118353] text-white cursor-pointer hover:bg-[#28b77c] transition"> Click Here</button>
+                    <button class="w-[200px] h-[40px] rounded-[20px] bg-[#118353] text-white cursor-pointer hover:bg-[#28b77c] transition">Star</button>
+                </div>
+            </div>
+
+
+            <!-- Image -->
+            <div class="relative w-[280px] h-[320px] sm:w-[400px] sm:h-[450px]">
+                <div class="absolute w-[200px] h-[260px] sm:w-[280px] sm:h-[360px] bg-[#118353] rounded-[25%_25%_45%_45%] top-[40px] left-[40px] sm:top-[60px] sm:left-[60px]">
+                    <img class="absolute w-[220px] sm:w-[300px] bottom-0 left-[15px] sm:left-[20px]" src="image-removebg-preview (3).png" alt="Huda">
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!--- About-->
+        <section id="About" class="w-[90%] sm:w-[80%] mx-auto py-[60px] px-[10px] mb-[100px] scroll-mt-[100px]">
+            <h1 class="text-[32px] sm:text-[40px] text-white text-center mb-12">About Me</h1>
+
+            <div class="flex flex-wrap justify-center items-center gap-[50px]">
+                <!-- About Image -->
+                <div class="shrink-0">
+                    <img class="w-[220px] h-[220px] sm:w-[300px] sm:h-[300px] object-cover rounded-[10px] border border-[#118353] shadow-[0_0_30px_rgba(43,168,127,0.25)]" src="/5aeaf4fdb931a4d5ca14172952463002.jpg" alt="personal img">
+                </div>
+
+
+                <!-- About Text -->
+                <div class="max-w-[600px] w-full text-center md:text-left">
+
+                    <h2 class="text-white font-bold text-[26px] sm:text-[30px] mb-2">Huda Khadar</h2>
+
+                    <p class="font-serif text-[15px] text-gray-500 leading-[1.6] mb-8">I'm a Full Stack Developer interested in web development and AI. I enjoy building and learning new technologies. I'm interested in AI and web development.</p>
+
+
+                    <!-- Statistics -->
+                    <div class="flex flex-wrap justify-center md:justify-start items-center gap-10 mb-8">
+
+                        <div>
+                            <h2 class="text-lg font-bold text-white">5+  </h2>
+                            <p class="text-lg font-serif text-gray-500">years shipping code</p>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-bold text-white">30+</h2>
+                            <p class="text-lg font-serif text-gray-500">projects launched  </p>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-bold text-white">3+</h2>
+                            <p class="text-lg font-serif text-gray-500"> open-source libraries  </p>
+                        </div>
+                    </div>
+                    <button class="w-[200px] h-[40px] rounded-[20px] bg-[#118353] text-white cursor-pointer hover:bg-[#28b77c] transition"> View Project</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!---Skils-->
+        <section id="Skills" class="text-center py-10 mb-[100px] scroll-mt-[100px] px-4">
+         <h2 class="text-white text-[25px] font-bold mb-10"> My Skills</h2>
+
+            <!-- Skills Card -->
+            <ul class="flex justify-center gap-10 flex-wrap p-0 m-0" >
+                <!-- FullStack development -->
+             <li class="group w-full max-w-[310px] h-[120px] border-2 border-white/30 shadow-lg rounded-lg flex items-center px-5 transition-all duration-300 hover:-translate-y-2 hover:border-green-400 hover:shadow-[0_0_25px_rgba(74,222,128,0.4)]" >
+              <!-- Icon -->
+               <img  width="55" height="55" class="mr-5 shrink-0 transition-transform duration-300 group-hover:scale-110" src="data:image/png;base64,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" alt="developer-female">
+              <!-- text -->
+             <div class="text-left">
+                 <h3 class="text-white text-xl font-bold mb-2"> Full Stack Developer</h3>
+                       <p class="text-white text-md">   Build modern web applications  </p>
+                    </div>
+                </li>
+
+
+                <!-- Graphic design -->
+                <li class="group flex items-center w-full max-w-[310px] h-[120px] px-5 border-2 border-white/30 rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-green-400 hover:shadow-[0_0_25px_rgba(74,222,128,0.4)]">
+          <!-- Icon -->
+           <img width="55" height="55" class="mr-5 shrink-0 transition-transform duration-300 group-hover:scale-110"  src="data:image/png;base64,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" alt="Graphic Design">
+         <img  src="data:image/png;base64,PLACEHOLDER" >
+        <!-- Text -->
+        <div class="text-left">
+     <h3 class="text-white text-x font-bold mb-2">Graphic Design</h3>
+    <p class="text-white text-md"> Creating beautiful visual designs   </p>
+         </div>
+          </li>
+
+            </ul>
+
+        </section>
+
+
+        <!--gals-->
+        <section id="Goals" class="text-center py-10 mb-[100px] scroll-mt-[100px] px-4">
+            <h2 class="text-white text-[25px] font-bold mb-10">My Goals </h2>
+
+           
+            <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center p-0 m-0 max-w-[1050px] mx-auto">
+                <!--full-->
+                <li class="group w-full max-w-[310px] h-[120px] border-2 border-white/30 shadow-lg rounded-lg flex items-center px-5 transition-all duration-300 hover:-translate-y-2 hover:border-green-400 hover:shadow-[0_0_25px_rgba(74,222,128,0.4)]" >
+                    <!-- Icon -->
+                     <img width="55" height="55" class="mr-5 shrink-0 transition-transform duration-300 group-hover:scale-110"  src="data:image/png;base64,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" alt="external-full-stack-computer-programming-flaticons-flat-flat-icons-2">
+                    <!-- Text -->
+                    <div class="text-left">
+                        <p class="text-white text-md">
+                            Build real-world Application
+                        </p>
+                    </div>
+                </li>
+
+
+
+        <!--Learing -->
+                <li class="group flex items-center w-full max-w-[310px] h-[120px] px-5 border-2 border-white/30 rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-green-400 hover:shadow-[0_0_25px_rgba(74,222,128,0.4)]">
+       <!-- Icon -->
+        <img width="55" height="55" class="mr-5 shrink-0 transition-transform duration-300 group-hover:scale-110" src="data:image/png;base64,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" alt="learning">
+                    <div class="text-left">
+                        <p class="text-white text-md">Learing AI Agents</p>
+                    </div>
+                </li>
+
+
+         <!--Improve-->
+                <li class="group flex items-center w-full max-w-[310px] h-[120px] px-5 border-2 border-white/30 rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-green-400 hover:shadow-[0_0_25px_rgba(74,222,128,0.4)]">
+               <img width="55" height="55" class="mr-5 shrink-0 transition-transform duration-300 group-hover:scale-110" src="data:image/png;base64,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" alt="external-improve-human-networking-parzival-1997-flat-parzival-1997">
+                    <div class="text-left">
+                        <p class="text-white text-md">Improve my software engineering</p>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+
+
+        <!--Contact -->
+     <section id="Contact" class="min-h-screen flex flex-col px-5 py-20 scroll-mt-[100px] items-center md:items-start">
+
+     <h2 class="text-white text-[26px] sm:text-[30px] font-bold mb-3">Contact Me</h2>
+
+     <p class="text-gray-400 mb-10 max-w-[500px] text-center md:text-left">Have a project or question? Feel free to send me a message.</p>
+
+     <form  class="w-full max-w-[400px] bg-[#071a2d] border border-white/20 rounded-xl p-6 sm:p-8 shadow-[0_0_30px_rgba(43,168,127,0.15)]">
+
+    <!-- Name -->
+    <div class="mb-5">
+        <label for="name" class="block text-white font-semibold mb-2"> Name</label>
+
+        <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required class="w-full h-[50px] px-4 rounded-lg bg-[#021122] border border-white/20 text-white placeholder-gray-500 outline-none transition-all duration-300 focus:border-[#34ca8c] focus:shadow-[0_0_15px_rgba(52,202,140,0.25)]">
+    </div>
+
+    <!-- Email -->
+    <div class="mb-5">
+        <label for="email" class="block text-white font-semibold mb-2"> Email</label>
+
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required class="w-full h-[50px] px-4 rounded-lg bg-[#021122] border border-white/20 text-white placeholder-gray-500 outline-none transition-all duration-300 focus:border-[#34ca8c] focus:shadow-[0_0_15px_rgba(52,202,140,0.25)]">
+    </div>
+
+
+    <div class="mb-6">
+        <label  for="message" class="block text-white font-semibold mb-2"> Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required class="w-full px-4 py-3 rounded-lg bg-[#021122] border border-white/20 text-white placeholder-gray-500 outline-none resize-none transition-all duration-300 focus:border-[#34ca8c] focus:shadow-[0_0_15px_rgba(52,202,140,0.25)]" ></textarea>
+    </div>
+
+    
+    <button type="submit" class="w-full h-[50px] rounded-lg bg-[#118353] text-white font-bold transition-all duration-300 hover:bg-[#28b77c] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(52,202,140,0.4)]"> Send Message</button>
+
+</form>
+
+</section>
+
+    </main>
+
+
+   <!----footer-->
+<footer class="border-t border-white/10 bg-[#021122] px-5 py-8">
+
+    <div class="max-w-[1100px] mx-auto flex flex-col md:flex-row justify-between items-center gap-5">
+
+        <a  href="#home" class="text-[#28b77c] text-xl font-bold"> Huda</a>
+        <ul class="flex flex-wrap justify-center gap-5">
+            <li><a href="#About" class="text-gray-400 hover:text-[#34ca8c] transition"> About</a></li>
+
+            <li><a  href="#Skills" class="text-gray-400 hover:text-[#34ca8c] transition">Skills</a></li>
+
+            <li><a href="#Goals" class="text-gray-400 hover:text-[#34ca8c] transition"> Goals</a></li>
+
+            <li><a href="#Contact" class="text-gray-400 hover:text-[#34ca8c] transition"> Contact</a></li>
+        </ul>
+
+        <div class="flex gap-4">
+
+            <a  href="https://github.com/" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 text-white transition-all duration-300 hover:border-[#34ca8c] hover:text-[#34ca8c] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(52,202,140,0.3)]"> Git</a>
+
+            <a href="https://www.linkedin.com/" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 text-white transition-all duration-300 hover:border-[#34ca8c] hover:text-[#34ca8c] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(52,202,140,0.3)]">in</a>
+        </div>
+
+    </div>
+
+    <p class="text-gray-500 text-sm text-center mt-6">
+        © 2026 Huda. All rights reserved.
+    </p>
+
+</footer>
+</body>
+
+
+</html>
